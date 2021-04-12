@@ -27,10 +27,10 @@ services:
     ports:
       - 3306:3306
     environment:
-      MYSQL_DATABASE: wp
-      MYSQL_USER: wp
-      MYSQL_PASSWORD: secret
-      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: wfx-wp
+      MYSQL_USER: admin_R00t_Wfx
+      MYSQL_PASSWORD: 3ty_root&eax_admin#
+      MYSQL_ROOT_PASSWORD: 3ty_root&eax_admin#
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     networks:
